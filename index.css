@@ -1,0 +1,295 @@
+.Login{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("images/1.jpg") center ;
+	background-size: cover;
+    background-image: image(to bottom,"images/1.jpg");
+}
+
+.h2{
+	text-decoration: none;
+	color:whitesmoke
+}
+.button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 2px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+ 
+  }
+  .button5 {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+ 
+  }
+  .button3 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+ 
+  }
+  .button4 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+ 
+  }
+  .button2 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 5px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+ 
+  }
+  
+  #fotr {
+	color: wheat;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 4rem; 
+    font-size: 2rem;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.Registration{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("images/2.jpg") center ;
+	background-size: cover;
+  
+}
+.bodyy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    
+}
+
+.bodyy2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("images/2.jpg") center ;
+ 
+}
+
+  form {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+  }
+  label {
+    color: beige;
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+  }
+ 
+  input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color:black;
+  }
+  .Navbar {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+  }
+  .tevez {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("") center no-repeat;
+  }
+  .Navbar2 {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    background-color:red;
+  }
+
+  nav {
+    padding-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+  
+  }
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 1rem 0;
+    margin: 0 5rem;
+    position: relative;
+    letter-spacing: 2px;
+  }
+  nav ul li a:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a::before,
+  nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #b9c5d5;
+    left: 0;
+    transform: scaleX(0);
+    transition: all 0.5s;
+  }
+  
+  nav ul li a::before {
+    top: 0;
+    transform-origin: left;
+  }
+  
+  nav ul li a::after {
+    bottom: 0;
+    transform-origin: right;
+  }
+  
+  nav ul li a:hover::before,
+  nav ul li a:hover::after {
+    transform: scaleX(1);
+  }	
+ 
+  a {
+    text-decoration: none;
+    color:whitesmoke;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+   
+  }
+  
+   th {
+    border: 1px solid #dddddd;
+    text-align: left;
+   color: aqua;
+    padding: 4px;
+  }
+  td{
+    border: 1px solid #dddddd;
+    text-align: left;
+     color:lightseagreen;
+    padding: 4px;
+
+  }
+  td a{
+    border: 1px solid #dddddd;
+    text-align: left;
+     color:lightseagreen;
+    padding: 4px;}
+
+  tr:nth-child(even) {
+    color: greenyellow;
+  }
+  .Mainpage{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("images/3.jpg") center no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+  
+  }
+  
+  header {
+    width: 100%;
+    height: 0vh;
+   background-color: cornflowerblue;
+    background-size: cover;
+  
+  }
+  .Registrationpageheader{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("images/2.jpg") center no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+  }
+  .Loginheader{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("images/3.jpg") center no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+  }
+  .Loginheader2{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("images/3.jpg") center no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+  }
+  .Exampleheadr{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("images/4.jpg") center no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+  }
+  .logout{
+    right: 0;
+    top: 0;
+    text-align: right;
+
+  }
+  
